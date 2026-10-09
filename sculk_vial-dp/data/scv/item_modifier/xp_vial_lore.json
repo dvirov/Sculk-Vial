@@ -1,0 +1,24 @@
+
+  {
+    "type": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Exp Stored : ",
+        "color": "#f3f3f3",
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "scv.clc"
+            }
+          }
+        ]
+      }
+    ],
+    "mode": "replace_section",
+    "offset": 2,
+    "size": 1
+  }
+

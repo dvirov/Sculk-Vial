@@ -1,0 +1,68 @@
+  {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "E E",
+      " E "
+    ],
+    "key": {
+      "E": [
+        "minecraft:echo_shard"
+      ]
+    },
+    "result": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:max_damage": 1396,
+        "minecraft:damage": 1396,
+        "item_model": "scv:sculk_vial",
+        "minecraft:item_name": {"italic":false,"text":"Sculk Vial"},
+        "custom_data": {
+          "id":"sculk_vial"
+        },
+        "minecraft:rarity": "uncommon",
+        "minecraft:enchantments": {
+          "scv:store_xp": 1
+        },
+        "enchantment_glint_override": true,
+        "tooltip_display": {
+          "hidden_components": [
+            "minecraft:enchantment_glint_override", 
+            "minecraft:enchantments"
+          ]
+        },
+        "minecraft:lore": [
+          {"color":"light_purple","italic":false,"text":"Left Click to store xp "},
+          {"color":"light_purple","italic":false,"text":"Right Click to release stored xp"},
+          {"color":"white","italic":false,"text":"Exp Stored: 0"},
+          {"color":"blue","italic":false,"text":"Sculk Vials"}
+        ],
+        "minecraft:max_stack_size": 1,
+        "minecraft:consumable": {
+          "consume_seconds": 99999,
+          "animation": "none",
+          "has_consume_particles": false
+        },
+        "use_effects": {
+          "can_sprint": true,
+          "interact_vibrations": true,
+          "speed_multiplier": 1
+        },
+        "piercing_weapon": {
+          "sound": "minecraft:item.bottle.fill_dragonbreath",
+          "deals_knockback": false,
+          "dismounts": false
+        },
+        "attack_range": {
+          "max_creative_reach": 0,
+          "max_reach": 0,
+          "hitbox_margin": 0,
+          "min_creative_reach": 0,
+          "min_reach": 0,
+          "mob_factor": 0
+
+        }
+      }
+    },
+    "show_notification": true
+  }

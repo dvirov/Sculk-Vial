@@ -1,0 +1,10 @@
+{
+	"criteria": {
+	  "": {
+		"trigger": "minecraft:tick"
+	  }
+	},
+	"rewards": {
+	  "function": "scv:xp_vial_cd"
+	}
+  }

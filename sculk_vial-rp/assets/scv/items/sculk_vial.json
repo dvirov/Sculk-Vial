@@ -1,0 +1,51 @@
+{
+	
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:damage",
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "scv:sculk_vial_full"
+        }
+      },
+      {
+        "threshold": 0.15,
+        "model": {
+          "type": "minecraft:model",
+          "model": "scv:sculk_vial_level_4"
+        }
+      },
+      {
+        "threshold": 0.30,
+        "model": {
+          "type": "minecraft:model",
+          "model": "scv:sculk_vial_level_3"
+        }
+      },
+      {
+        "threshold": 0.55,
+        "model": {
+          "type": "minecraft:model",
+          "model": "scv:sculk_vial_level_2"
+        }
+      },
+      {
+        "threshold": 0.70,
+        "model": {
+          "type": "minecraft:model",
+          "model": "scv:sculk_vial_level_1"
+        }
+      },
+      {
+        "threshold": 0.99,
+        "model": {
+          "type": "minecraft:model",
+          "model": "scv:sculk_vial_empty"
+        }
+      }
+    ]
+  }
+}

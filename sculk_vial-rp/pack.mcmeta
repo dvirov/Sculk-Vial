@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "for Sculk Vial datapack v2.0.2",
+    "pack_format": 46,
+    "supported_formats": {"max_inclusive": 999,"min_inclusive": 46},
+    "min_format": 46,
+    "max_format": [999,0]
+  }
+}

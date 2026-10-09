@@ -1,0 +1,24 @@
+{
+	"criteria": {
+	  "1": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": "minecraft:echo_shard",
+			  "count": {
+				"min": 1,
+				"max": 64
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "recipes": [
+		"scv:xp_vial"
+	  ]
+	}
+  }
+  

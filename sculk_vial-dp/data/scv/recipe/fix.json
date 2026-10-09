@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_special_bookcloning",
+  "source": "minecraft:poisonous_potato",
+  "material": "minecraft:poisonous_potato",
+  "allowed_generations": 0,
+  "result": {
+    "id": "diamond"
+  }
+}

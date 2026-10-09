@@ -1,0 +1,8 @@
+
+    {
+      "type": "minecraft:set_damage",
+      "damage": 0.114,
+      "add": true
+    }
+
+  

@@ -1,0 +1,23 @@
+{
+  "parent": "dvirov:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "components": {
+        "minecraft:item_model": "scv:sculk_vial_icon",
+        "enchantment_glint_override": true
+      }
+    },
+    "title": "Skulk Vials Pack is Loaded",
+    "description": "Use 3 Echo shards to craft Sculk Vial and Fill it with xp",
+    "show_toast": false,
+    "frame": "task",
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

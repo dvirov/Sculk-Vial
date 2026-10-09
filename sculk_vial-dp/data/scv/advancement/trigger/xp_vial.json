@@ -1,0 +1,18 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": "minecraft:poisonous_potato",
+			"components": {
+			  "minecraft:custom_data": {"id":"sculk_vial"}
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "scv:xp_vial"
+	}
+  }
